@@ -1,5 +1,7 @@
 # write your method here
 
-def crazy_strings(a,b)
-
-end
+def crazy_strings
+  puts "Hello,".upcase.reverse 
+  puts "Friends".swapcase.reverse.gsub(/)
+end 
+crazy_strings
